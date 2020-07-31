@@ -1,0 +1,89 @@
+*
+{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body {
+background-image:url(apple.jpg);
+background-size:cover;
+background-position:center;
+box-sizing:border-box;
+font-family:veranda;
+}
+.menu-bar
+{
+background:#e5e4d7;
+text-align:center;
+}
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+color:black;
+}
+.menu-bar ul li
+{
+width:120px;
+margin:15px;
+padding:15px;
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+}
+.active,.menu-bar ul li:hover
+{
+background:#2bab0d;
+border-radius:3px;
+}
+.menu-bar .fa
+{
+margin-right:8px;
+}
+.sub-menu-1
+{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background:#ffcf79;
+margin-top:15px;
+margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width:150px;
+padding:10px;
+border-bottom:1px dotted blue;
+background:transparent;
+border-radius:0;
+text-allign:left;
+}
+h1
+{
+text-decoration:underline;
+font-size:30px;
+text-align:center;
+font-weight:bold;
+color:#800080;
+}
+p.para
+{
+color:#800080;
+font-size:25px;
+font-family:helvatica;
+text-align:center;
+font-weight:bold;
+}
+
+
+
+
